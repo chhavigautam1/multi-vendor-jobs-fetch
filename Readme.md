@@ -40,6 +40,9 @@ A backend system to fetch and process data from multiple vendor APIs using a job
 
 # 3. Start Using docker :- docker-compose up --build (app runs at http://localhost:8080)
 
+# 4. Insall dependiencies
+- npm install
+
 ---
 ## Load Testing Script :- k6 run loadTest.js (requires k6 to be installed)
 ---
