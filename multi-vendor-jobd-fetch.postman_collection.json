@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "c679610a-ac86-4c48-9db5-9893fa81b65b",
+		"name": "multi-vendor-jobd-fetch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42757342"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/jobs",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"chavi\",\r\n    \"message\":\"testing\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/jobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/jobs/1b5cdc4e-6bda-4c8e-9375-a8f7c2cf2e37",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/jobs/1b5cdc4e-6bda-4c8e-9375-a8f7c2cf2e37",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jobs",
+						"1b5cdc4e-6bda-4c8e-9375-a8f7c2cf2e37"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
