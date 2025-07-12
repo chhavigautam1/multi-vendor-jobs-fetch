@@ -27,20 +27,20 @@ A backend system to fetch and process data from multiple vendor APIs using a job
 ---
 ## How to Run
 
-# 1. Clone the repo :-  
+## 1. Clone the repo :-  
 - git clone <repo-url> 
 - cd multi-vendor-fetch
 
-# 2. Add .env file :-   
+## 2. Add .env file :-   
 - MONGO_USERNAME=your_username
 - MONGO_PASSWORD=your_password
 - MONGO_CLUSTER=your_cluster_url
 - MONGO_DB=your_db_name
 - PORT=8080 (used in this project can be changed accordingly)
 
-# 3. Start Using docker :- docker-compose up --build (app runs at http://localhost:8080)
+## 3. Start Using docker :- docker-compose up --build (app runs at http://localhost:8080)
 
-# 4. Insall dependiencies
+## 4. Insall dependiencies
 - npm install
 
 ---
