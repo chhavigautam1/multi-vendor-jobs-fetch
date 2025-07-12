@@ -27,14 +27,16 @@ k6 for load testing
 ---
 ## How to Run
 
-# 1. Clone the repo :-  git clone <repo-url> 
-                        cd multi-vendor-fetch
+# 1. Clone the repo :-  
+git clone <repo-url> 
+ cd multi-vendor-fetch
 
-# 2. Add .env file :-   MONGO_USERNAME=your_username
-                        MONGO_PASSWORD=your_password
-                        MONGO_CLUSTER=your_cluster_url
-                        MONGO_DB=your_db_name
-                        PORT=8080 (used in this project can be changed accordingly)
+# 2. Add .env file :-   
+MONGO_USERNAME=your_username
+MONGO_PASSWORD=your_password
+MONGO_CLUSTER=your_cluster_url
+MONGO_DB=your_db_name
+PORT=8080 (used in this project can be changed accordingly)
 
 # 3. Start Using docker :- docker-compose up --build (app runs at http://localhost:8080)
 
@@ -53,7 +55,7 @@ Postman collection included: [`multi-vendor-jobd-fetch.postman_collection.json`]
 -- k6 was chosen for load testing because of its JS-based scripting and ease of simulating concurrent API traffic. It suits backend performance testing well.
 -- Docker Compose ensures consistent, reproducible environments across Redis, MongoDB, and Node.js services.
 ---
-## 🚀 Load Testing
+##  Load Testing
 
 Load test script: [`loadTest.js`](./loadTest.js)  
 Raw results: [`result.txt`](./result.txt)
